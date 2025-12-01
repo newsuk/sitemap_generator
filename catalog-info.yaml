@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sitemap_generator
+  description: Component for sitemap_generator
+  annotations:
+    circleci.com/project-slug: github/newsuk/sitemap_generator
+    backstage.io/source-location: url:https://github.com/newsuk/sitemap_generator/
+    github.com/team-slug: newsuk/sitemap_generator
+    backstage.io/productivity-hub-metrics-enabled: 'true'
+  tags:
+    - bu:newsuk
+spec:
+  type: service
+  lifecycle: production
+  owner: nuk
